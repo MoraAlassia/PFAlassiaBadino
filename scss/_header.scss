@@ -1,0 +1,59 @@
+@mixin anclas {
+  text-decoration: none;
+  color: $color-negro;
+}
+
+.logo {
+  height: auto;
+  width: 150px;
+  flex-direction: column;
+  text-align: center;
+}
+
+.encabezado {
+  background-color: $color-blanco;
+  border-bottom: 1px solid $color-negro;
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.nav-item {
+  color: $color-blanco;
+}
+
+.menuNav a {
+  @include anclas;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  border-left: 1px solid $color-negro;
+  border-right: 1px solid $color-negro;
+  padding: 0;
+
+  &:hover {
+    background-color: $color-negro;
+    color: $color-negro;
+  }
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+main {
+  margin: 5px;
+  padding: 20px;
+}
+
+h1 {
+  text-align: left;
+  text-decoration: underline;
+  margin: 20px 0px;
+}
+
+h2 {
+  text-align: center;
+  color: $color-negro;
+  font-weight: bold;
+}

@@ -1,0 +1,17 @@
+.btnProductos {
+    background-color: $color-negro;
+    color: $color-blanco;
+    border: 1px solid $color-negro;
+    padding: 5px;
+    margin: 2px;
+  
+    &:hover {
+      background-color: rgb(31, 28, 28);
+      color: $color-blanco;
+    }
+  }
+  
+  .card {
+    border: none;
+  }
+  
